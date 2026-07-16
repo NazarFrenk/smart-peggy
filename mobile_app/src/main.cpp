@@ -1,9 +1,13 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
+#include "appcontroller.hpp"
+
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+
+    AppController c;
 
     QQmlApplicationEngine engine;
     QObject::connect(
@@ -12,7 +16,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("mobile_app", "Main");
+    engine.loadFromModule("smartpeggy", "Main");
 
     return app.exec();
 }
