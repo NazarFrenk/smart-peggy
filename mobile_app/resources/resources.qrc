@@ -3,5 +3,13 @@
         <file>images/settings.svg</file>
         <file>shaders/colorize.frag</file>
         <file>shaders/colorize.frag.qsb</file>
+        <file>images/backArrow.svg</file>
+        <file>images/bluetooth.svg</file>
+        <file>images/leaf.svg</file>
+        <file>images/lighthouse.svg</file>
+        <file>images/pathway.svg</file>
+        <file>images/strobe.svg</file>
+        <file>images/sun.svg</file>
+        <file>images/wave.svg</file>
     </qresource>
 </RCC>
