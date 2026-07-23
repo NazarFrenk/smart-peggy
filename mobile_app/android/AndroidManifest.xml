@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.smart.peggy"
     android:installLocation="auto" android:versionCode="-- %%INSERT_VERSION_CODE%% --"
     android:versionName="-- %%INSERT_VERSION_NAME%% --">
-    
+
     <!-- Bluetooth permissions -->
-    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" 
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
                      android:usesPermissionFlags="neverForLocation" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
@@ -22,12 +22,15 @@
     <application android:name="org.qtproject.qt.android.bindings.QtApplication"
         android:hardwareAccelerated="true" android:label="Smart Peggy"
         android:icon="@mipmap/ic_launcher" android:requestLegacyExternalStorage="true"
-        android:allowBackup="true" android:fullBackupOnly="false">
-        
+        android:allowBackup="true" android:fullBackupOnly="false"
+        android:extractNativeLibs="true">
+
         <activity android:name="org.qtproject.qt.android.bindings.QtActivity"
             android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
             android:launchMode="singleTop" android:screenOrientation="portrait"
-            android:exported="true" android:label="Smart Peggy">
+            android:exported="true" android:label="Smart Peggy"
+            android:resizeableActivity="false">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
