@@ -8,8 +8,8 @@ import "../components"
 ApplicationWindow {
     id: root
 
-    width: 360
-    height: 640
+    width: LayoutDefaults.designWidth
+    height: LayoutDefaults.designHeight
 
     visible: true
 

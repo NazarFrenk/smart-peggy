@@ -6,11 +6,8 @@ import smartpeggy
 QtObject {
     readonly property real displayScale: AppController.displayScale
 
-    readonly property real defaultWindowHeight: 600 * displayScale
-    readonly property real defaultWindowWidth: 1024 * displayScale
-
-    readonly property real minWindowHeight: 600 * displayScale
-    readonly property real minWindowWidth: 1024 * displayScale
+    readonly property real designWidth: 360
+    readonly property real designHeight: 640
 
     readonly property real defaultRadius: 8 * displayScale
     readonly property real defaultScreenSpacing: 10 * displayScale
