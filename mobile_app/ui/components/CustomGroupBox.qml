@@ -40,7 +40,7 @@ Item {
             id: titleText
             text: root.title
             color: Style.neon
-            font.pointSize: FontSize.xMinimum
+            font.pointSize: FontSize.caption
             font.bold: true
             anchors.centerIn: parent
         }

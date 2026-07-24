@@ -25,7 +25,7 @@ Item {
             verticalAlignment: Qt.AlignVCenter
             text: root.text
             color: Style.neon
-            font.pixelSize: FontSize.medium
+            font.pixelSize: FontSize.body
             fontSizeMode: Text.Fit
             minimumPixelSize: 7
         }

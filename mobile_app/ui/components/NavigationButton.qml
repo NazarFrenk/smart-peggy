@@ -48,7 +48,7 @@ CustomAbstractButton {
             Layout.fillWidth: true
             Layout.alignment: Qt.AlignHCenter
 
-            font.pixelSize: FontSize.medium
+            font.pixelSize: FontSize.body
             //font.bold: root.fontBold
             text: root.text
             color: root.textColor
