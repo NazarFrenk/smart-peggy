@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 {
     // Threaded rendering handles Surface recreation after screen lock.
     qputenv("QSG_RENDER_LOOP", "threaded");
+    qputenv("QT_QPA_PLATFORM", "android");
 
     // Use OpenGL ES instead of Vulkan.
     QQuickWindow::setGraphicsApi(QSGRendererInterface::OpenGL);
