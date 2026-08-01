@@ -11,5 +11,15 @@
         <file>images/strobe.svg</file>
         <file>images/sun.svg</file>
         <file>images/wave.svg</file>
+        <file>images/search.svg</file>
+        <file>images/language.svg</file>
+        <file>images/audioVideoDevice.svg</file>
+        <file>images/computer.svg</file>
+        <file>images/healthDevice.svg</file>
+        <file>images/imagingDevice.svg</file>
+        <file>images/networkDevice.svg</file>
+        <file>images/peripheral.svg</file>
+        <file>images/phone.svg</file>
+        <file>images/wearable.svg</file>
     </qresource>
 </RCC>
