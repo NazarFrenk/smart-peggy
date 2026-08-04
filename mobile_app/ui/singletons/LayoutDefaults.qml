@@ -11,6 +11,7 @@ QtObject {
 
     readonly property real defaultRadius: 8 * displayScale
     readonly property real defaultScreenSpacing: 10 * displayScale
+    readonly property real defaultMargins: 12 * displayScale
 
     readonly property real scrollWidth: 4 * displayScale
 }
