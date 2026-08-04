@@ -13,8 +13,8 @@ Item {
     Rectangle {
         id: background
         anchors.fill: parent
-        color: Style.black
-        border.color: Style.white
+        color: Style.pastelYellow
+        border.color: Style.lavender
         border.width: 1
         radius: LayoutDefaults.defaultRadius
 
@@ -34,13 +34,15 @@ Item {
         anchors.topMargin: -height / 2
         anchors.leftMargin: 12
 
+        border.color: Style.lavender
+        border.width: 1
         color: background.color
 
         Text {
             id: titleText
             text: root.title
-            color: Style.neon
-            font.pointSize: FontSize.caption
+            color: Style.lavender
+            font.pixelSize: FontSize.caption
             font.bold: true
             anchors.centerIn: parent
         }
